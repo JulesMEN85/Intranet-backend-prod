@@ -1,0 +1,150 @@
+2024-12-10 14:07:41 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\admin.temp\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file E:\Intranet\backend-prod\index.js --scriptoptions= --log "backendNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-12-10 14:07:41 - Started 4972
+2024-12-10 15:10:22 - Stopping backendnode.exe
+2024-12-10 15:10:22 - ProcessKill 4972
+2024-12-10 15:10:22 - Found child process: 8912 Name: conhost.exe
+2024-12-10 15:10:22 - Found child process: 6504 Name: node.exe
+2024-12-10 15:10:22 - Stopping process 8912
+2024-12-10 15:10:22 - Send SIGINT 8912
+2024-12-10 15:10:22 - SIGINT to 8912 failed - Killing as fallback
+2024-12-10 15:10:22 - Stopping process 6504
+2024-12-10 15:10:22 - Send SIGINT 6504
+2024-12-10 15:10:22 - SIGINT to 6504 failed - Killing as fallback
+2024-12-10 15:10:22 - Stopping process 4972
+2024-12-10 15:10:22 - Send SIGINT 4972
+2024-12-10 15:10:22 - SIGINT to 4972 failed - Killing as fallback
+2024-12-10 15:10:22 - Finished backendnode.exe
+2024-12-10 15:10:26 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\admin.temp\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file E:\Intranet\backend-prod\index.js --scriptoptions= --log "backendNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-12-10 15:10:26 - Started 6708
+2024-12-10 15:34:47 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\admin.temp\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file E:\Intranet\backend-prod\index.js --scriptoptions= --log "backendNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-12-10 15:34:47 - Started 9012
+2024-12-10 15:37:28 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\admin.temp\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file E:\Intranet\backend-prod\index.js --scriptoptions= --log "backendNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-12-10 15:37:28 - Started 6308
+2024-12-10 15:37:40 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\admin.temp\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file E:\Intranet\backend-prod\index.js --scriptoptions= --log "backendNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-12-10 15:37:40 - Started 8640
+2024-12-10 15:49:53 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\admin.temp\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file E:\Intranet\backend-prod\index.js --scriptoptions= --log "backendNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-12-10 15:49:53 - Started 4572
+2024-12-10 16:07:32 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\admin.temp\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file E:\Intranet\backend-prod\index.js --scriptoptions= --log "backendNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-12-10 16:07:32 - Started 7516
+2024-12-11 10:10:38 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\admin.temp\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file E:\Intranet\backend-prod\index.js --scriptoptions= --log "backendNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-12-11 10:10:38 - Started 7964
+2024-12-11 10:13:18 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\admin.temp\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file E:\Intranet\backend-prod\index.js --scriptoptions= --log "backendNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-12-11 10:13:18 - Started 4100
+2024-12-11 10:20:17 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\admin.temp\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file E:\Intranet\backend-prod\index.js --scriptoptions= --log "backendNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-12-11 10:20:17 - Started 7116
+2024-12-11 10:24:16 - Stopping backendnode.exe
+2024-12-11 10:24:16 - ProcessKill 7116
+2024-12-11 10:24:16 - Found child process: 6864 Name: conhost.exe
+2024-12-11 10:24:16 - Found child process: 8496 Name: node.exe
+2024-12-11 10:24:17 - Stopping process 6864
+2024-12-11 10:24:17 - Send SIGINT 6864
+2024-12-11 10:24:17 - SIGINT to 6864 failed - Killing as fallback
+2024-12-11 10:24:17 - Stopping process 8496
+2024-12-11 10:24:17 - Send SIGINT 8496
+2024-12-11 10:24:17 - SIGINT to 8496 failed - Killing as fallback
+2024-12-11 10:24:17 - Stopping process 7116
+2024-12-11 10:24:17 - Send SIGINT 7116
+2024-12-11 10:24:17 - SIGINT to 7116 failed - Killing as fallback
+2024-12-11 10:24:17 - Finished backendnode.exe
+2024-12-11 10:24:26 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\admin.temp\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file E:\Intranet\backend-prod\index.js --scriptoptions= --log "backendNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-12-11 10:24:26 - Started 7660
+2024-12-11 10:53:14 - Stopping backendnode.exe
+2024-12-11 10:53:14 - ProcessKill 7660
+2024-12-11 10:53:14 - Found child process: 8772 Name: conhost.exe
+2024-12-11 10:53:14 - Found child process: 2840 Name: node.exe
+2024-12-11 10:53:14 - Stopping process 8772
+2024-12-11 10:53:14 - Send SIGINT 8772
+2024-12-11 10:53:14 - SIGINT to 8772 failed - Killing as fallback
+2024-12-11 10:53:14 - Stopping process 2840
+2024-12-11 10:53:14 - Send SIGINT 2840
+2024-12-11 10:53:14 - SIGINT to 2840 failed - Killing as fallback
+2024-12-11 10:53:14 - Stopping process 7660
+2024-12-11 10:53:14 - Send SIGINT 7660
+2024-12-11 10:53:14 - SIGINT to 7660 failed - Killing as fallback
+2024-12-11 10:53:14 - Finished backendnode.exe
+2024-12-11 10:53:17 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\admin.temp\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file E:\Intranet\backend-prod\index.js --scriptoptions= --log "backendNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-12-11 10:53:17 - Started 2468
+2024-12-11 10:57:45 - Stopping backendnode.exe
+2024-12-11 10:57:45 - ProcessKill 2468
+2024-12-11 10:57:45 - Found child process: 8248 Name: conhost.exe
+2024-12-11 10:57:45 - Found child process: 4888 Name: node.exe
+2024-12-11 10:57:45 - Stopping process 8248
+2024-12-11 10:57:45 - Send SIGINT 8248
+2024-12-11 10:57:45 - SIGINT to 8248 failed - Killing as fallback
+2024-12-11 10:57:46 - Stopping process 4888
+2024-12-11 10:57:46 - Send SIGINT 4888
+2024-12-11 10:57:46 - SIGINT to 4888 failed - Killing as fallback
+2024-12-11 10:57:46 - Stopping process 2468
+2024-12-11 10:57:46 - Send SIGINT 2468
+2024-12-11 10:57:46 - SIGINT to 2468 failed - Killing as fallback
+2024-12-11 10:57:46 - Finished backendnode.exe
+2024-12-11 10:57:49 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\admin.temp\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file E:\Intranet\backend-prod\index.js --scriptoptions= --log "backendNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-12-11 10:57:49 - Started 7084
+2024-12-11 11:36:41 - Stopping backendnode.exe
+2024-12-11 11:36:41 - ProcessKill 7084
+2024-12-11 11:36:42 - Found child process: 6184 Name: conhost.exe
+2024-12-11 11:36:42 - Found child process: 3184 Name: node.exe
+2024-12-11 11:36:42 - Stopping process 6184
+2024-12-11 11:36:42 - Send SIGINT 6184
+2024-12-11 11:36:42 - SIGINT to 6184 failed - Killing as fallback
+2024-12-11 11:36:42 - Stopping process 3184
+2024-12-11 11:36:42 - Send SIGINT 3184
+2024-12-11 11:36:42 - SIGINT to 3184 failed - Killing as fallback
+2024-12-11 11:36:42 - Stopping process 7084
+2024-12-11 11:36:42 - Send SIGINT 7084
+2024-12-11 11:36:42 - SIGINT to 7084 failed - Killing as fallback
+2024-12-11 11:36:42 - Finished backendnode.exe
+2024-12-11 11:36:45 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\admin.temp\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file E:\Intranet\backend-prod\index.js --scriptoptions= --log "backendNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-12-11 11:36:45 - Started 4852
+2024-12-11 11:43:00 - Stopping backendnode.exe
+2024-12-11 11:43:00 - ProcessKill 4852
+2024-12-11 11:43:00 - Found child process: 3304 Name: conhost.exe
+2024-12-11 11:43:00 - Found child process: 5136 Name: node.exe
+2024-12-11 11:43:00 - Stopping process 3304
+2024-12-11 11:43:00 - Send SIGINT 3304
+2024-12-11 11:43:00 - SIGINT to 3304 failed - Killing as fallback
+2024-12-11 11:43:00 - Stopping process 5136
+2024-12-11 11:43:00 - Send SIGINT 5136
+2024-12-11 11:43:00 - SIGINT to 5136 failed - Killing as fallback
+2024-12-11 11:43:00 - Stopping process 4852
+2024-12-11 11:43:00 - Send SIGINT 4852
+2024-12-11 11:43:00 - SIGINT to 4852 failed - Killing as fallback
+2024-12-11 11:43:00 - Finished backendnode.exe
+2024-12-11 12:06:44 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\admin.temp\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file E:\Intranet\backend-prod\index.js --scriptoptions= --log "backendNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-12-11 12:06:44 - Started 5452
+2024-12-11 14:04:39 - Stopping backendnode.exe
+2024-12-11 14:04:39 - ProcessKill 5452
+2024-12-11 14:04:39 - Found child process: 8060 Name: conhost.exe
+2024-12-11 14:04:39 - Found child process: 4876 Name: node.exe
+2024-12-11 14:04:39 - Stopping process 8060
+2024-12-11 14:04:39 - Send SIGINT 8060
+2024-12-11 14:04:39 - SIGINT to 8060 failed - Killing as fallback
+2024-12-11 14:04:39 - Stopping process 4876
+2024-12-11 14:04:39 - Send SIGINT 4876
+2024-12-11 14:04:39 - SIGINT to 4876 failed - Killing as fallback
+2024-12-11 14:04:39 - Stopping process 5452
+2024-12-11 14:04:39 - Send SIGINT 5452
+2024-12-11 14:04:39 - SIGINT to 5452 failed - Killing as fallback
+2024-12-11 14:04:39 - Finished backendnode.exe
+2024-12-11 14:24:10 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\admin.temp\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file E:\Intranet\backend-prod\index.js --scriptoptions= --log "backendNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-12-11 14:24:10 - Started 6568
+2024-12-11 14:24:33 - Stopping backendnode.exe
+2024-12-11 14:24:33 - ProcessKill 6568
+2024-12-11 14:24:33 - Found child process: 7884 Name: conhost.exe
+2024-12-11 14:24:33 - Found child process: 9040 Name: node.exe
+2024-12-11 14:24:33 - Stopping process 7884
+2024-12-11 14:24:33 - Send SIGINT 7884
+2024-12-11 14:24:33 - SIGINT to 7884 failed - Killing as fallback
+2024-12-11 14:24:33 - Stopping process 9040
+2024-12-11 14:24:33 - Send SIGINT 9040
+2024-12-11 14:24:33 - SIGINT to 9040 failed - Killing as fallback
+2024-12-11 14:24:33 - Stopping process 6568
+2024-12-11 14:24:33 - Send SIGINT 6568
+2024-12-11 14:24:33 - SIGINT to 6568 failed - Killing as fallback
+2024-12-11 14:24:33 - Finished backendnode.exe
+2024-12-11 15:13:50 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\admin.temp\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file E:\Intranet\backend-prod\index.js --scriptoptions= --log "backendNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-12-11 15:13:50 - Started 7772
+2024-12-11 15:31:40 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\admin.temp\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file E:\Intranet\backend-prod\index.js --scriptoptions= --log "backendNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-12-11 15:31:40 - Started 5088
+2024-12-11 16:02:02 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\admin.temp\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file E:\Intranet\backend-prod\index.js --scriptoptions= --log "backendNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-12-11 16:02:02 - Started 660
