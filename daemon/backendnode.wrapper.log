@@ -1,0 +1,2 @@
+2024-08-14 11:18:24 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\ProgramData\npm\node_modules\node-windows\lib\wrapper.js --file D:\intranet\backend\index.js --scriptoptions= --log "backendNode wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-08-14 11:18:24 - Started 9096
