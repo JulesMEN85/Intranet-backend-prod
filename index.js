@@ -18,6 +18,7 @@ const articleRouter = require('./app/routers/articleRouter');
 const statscomptaRouter = require('./app/routers/statscomptaRouter');
 const paletteRouter = require('./app/routers/paletteRouter');
 const pslRouter = require('./app/routers/pslRouter'); 
+const QuantiteAchatRouter = require('./app/routers/QuantiteAchatRouter');
 const postesRouter = require('./app/routers/postesRouter'); 
 const systemesRouter = require("./app/routers/systemesRouter");
 
@@ -65,6 +66,7 @@ app.use('/api/articles', articleRouter);
 app.use('/api', statscomptaRouter);
 app.use('/api/palette', paletteRouter); 
 app.use('/api/psl', pslRouter);
+app.use('/api/panels', QuantiteAchatRouter)
 app.use("/api/postes", postesRouter);
 app.use("/api/systemes", systemesRouter);
 
