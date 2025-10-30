@@ -65,6 +65,49 @@ const fetchCustomerWithId = async (req, res) => {
   }
 };
 
+const fetchClientRemisesWinPro = async (req, res) => {
+  /**
+   * Récupère le texte SQL compact, le traduit en langage WinPro lisible,
+   * puis cherche dans le texte l'idRemise et sa valeur afin d'en faire un tableau
+   * que le frontend pourra appelé
+   *
+   */
+  try {
+    const { id } = req.params;
+    if (!id) {
+      return res.status(400).json({ error: "Il manque l'identifiant du client" });
+    }
+
+    // on récupere le texte compacté
+    const texteCompacte = await getVarremiseCustomerWithId(id);
+    if (!texteCompacte) {
+      return res.status(404).json({ error: `Aucun texte de remise pour le client ${id}` });
+    }
+
+    // On traduit en texte WinPro lisible
+    const texteWinPro = sqlToWinProText(texteCompacte);
+
+    // On extrait toutes les remises du texte WinPro
+    // On attend des blocs du type "Si (familleremise = x)\n_Remise := y"
+    const regex = /Si\s*\(familleremise\s*=\s*(\d+)\)[\s\S]*?_Remise\s*:?\s*=?\s*(\d+)/g;
+    const remises = [];
+    let match;
+    while ((match = regex.exec(texteWinPro)) !== null) {
+      remises.push({ idRemise: match[1], valeur: match[2] });
+    }
+    // En cas de bloc unique ou mal formé, retourne au moins le résultat
+    if (remises.length === 0) {
+      return res.status(200).json({ message: "Aucune remise trouvée pour ce client.", remises: [] });
+    }
+
+    // On envoie le tableau au frontend
+    res.status(200).json(remises);
+
+  } catch (error) {
+    console.error("Erreur fetchClientRemisesWinPro:", error);
+    res.status(500).json({ error: "Impossible d'extraire les remises pour ce client." });
+  }
+};
 const editCustomerRemise = async (req, res) => {
   /**
    * Met à jour une remise client selon la logique métier décrite.
@@ -239,4 +282,5 @@ module.exports = {
   fetchCustomersWithName,
   fetchCustomerWithId,
   editCustomerRemise,
+  fetchClientRemisesWinPro
 };

@@ -9,33 +9,40 @@ const {
 
 const addFamilyDiscount = async (req, res) => {
   try {
-    //On récupère name et famille_remise dans le body reçu
     const { name, famille_remise } = req.body;
 
-    //S'il manque le nom, on arrête tout
     if (!name) {
       throw new Error("Il manque le nom de la famille");
     }
-
-    //S'il manque le numéro de la famille de remise, on annule tout
     if (!famille_remise) {
       throw new Error("Il manque le numero de la famille");
     }
 
-    //On effectue la requête
+    // Effectuer la requête d'insertion
     await postFamilyDiscount(name, famille_remise);
 
-    //La requête a bien fonctionné
+    // Succès
     res.status(200).json({
       message: `La famille ${name} a bien été ajoutée.`,
     });
   } catch (error) {
-    //S'il y a une erreur, on envoie l'erreur à l'utilisateur
-    res.status(500).json({
-      error: `Une erreur est survenue lors de l'ajout de la famille ${error}`,
-    });
+    //Affiche un message compréhensible pour un utilisateur lambda
+    if (
+      error.code === "ER_DUP_ENTRY" ||
+      (error.message && error.message.includes("Duplicate entry"))
+    ) {
+      res.status(400).json({
+        error: "Ce code famille de remise existe déjà. Veuillez en choisir un autre.",
+      });
+    } else {
+      // Message générique pour les autres erreurs
+      res.status(500).json({
+        error: "Une erreur est survenue lors de l'ajout de la famille.",
+      });
+    }
   }
 };
+
 
 const removeFamilyDiscount = async (req, res) => {
   try {

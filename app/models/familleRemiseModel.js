@@ -70,6 +70,7 @@ const getFamiliesDiscount = async () => {
     const query = `
     SELECT *
     FROM famille
+    ORDER BY famille_remise ASC
     `;
   try {
     const [rows] = await db_intranet.execute(query);

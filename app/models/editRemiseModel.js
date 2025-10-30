@@ -19,6 +19,7 @@ const getCustomersWithName = async (search) => {
       INNER JOIN client ON client.code = varcli.code
       WHERE CAST(varcli.CODE AS CHAR) LIKE ?
          OR client.nom LIKE ?
+      ORDER BY CODE ASC
     `;
     // Utilisez ici le paramètre `search` pour construire le pattern
     const searchPattern = `%${search}%`;
