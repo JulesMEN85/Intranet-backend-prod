@@ -21,7 +21,8 @@ const pslRouter = require('./app/routers/pslRouter');
 const QuantiteAchatRouter = require('./app/routers/QuantiteAchatRouter');
 const postesRouter = require('./app/routers/postesRouter'); 
 const systemesRouter = require("./app/routers/systemesRouter");
-
+const editRemiseRouter = require('./app/routers/editRemiseRouter');
+const familleRemiseRouter = require("./app/routers/familleRemiseRouter")
 
 
 const app = express();
@@ -66,9 +67,11 @@ app.use('/api/articles', articleRouter);
 app.use('/api', statscomptaRouter);
 app.use('/api/palette', paletteRouter); 
 app.use('/api/psl', pslRouter);
-app.use('/api/panels', QuantiteAchatRouter)
+app.use('/api/panels', QuantiteAchatRouter);
 app.use("/api/postes", postesRouter);
 app.use("/api/systemes", systemesRouter);
+app.use("/api/remise", editRemiseRouter);
+app.use("/api/family", familleRemiseRouter)
 
 
 // 🚀 Lancement du serveur
