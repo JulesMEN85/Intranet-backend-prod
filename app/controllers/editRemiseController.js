@@ -92,7 +92,7 @@ const fetchClientRemisesWinPro = async (req, res) => {
     let currentFamille = null;
     let skipFamille = false;
 
-    const regexFamille = /^Sinon Si\s*\(familleremise\s*=\s*(\d+)\)$/;
+    const regexFamille = /^(?:Si|Sinon Si)\s*\(familleremise\s*=\s*(\d+)\)$/;
     const noRemiseText = "MessagePas de remise accordée sur cette famille de produit";
 
     for (let i = 0; i < lines.length; i++) {
