@@ -21,6 +21,7 @@ const winProToSql = {
     "=" : "&1D",            //Dans le cas où l'on souhaite vérifier une conditon. Exemple: Si (a=1) -> &01(a&1D1)
     ":=" : "&23",           //Dans le cas d'une affectation de variable. Exemple: a := 2 -> a&232
     "_Remise": "_!893",     //Nom de la variable dans le tableau des remises de prix 
+    "Message":"&0F"
 }
 
 
